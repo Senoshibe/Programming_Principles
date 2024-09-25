@@ -11,7 +11,7 @@
 #Write a program that takes as inputs the base price, weight, and distance, and prints the shipping cost to be
 #charged to the customer.
 
-basePrice = float(input("How much is the base price "))
+basePrice = float(input("How much is the base price? "))
 
 
 weight = float(input("What is the weight? "))

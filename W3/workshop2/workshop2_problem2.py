@@ -7,8 +7,8 @@
 #Annual salary: 60000
 #Hourly wage = $30.76923076923077
 
-hoursPerDay = float(input("Number of hours worked per day: "))
-daysPerWeek = float(input("Number of days worked in a week: "))
-annualSalary = float(input("Annual salary: "))
-hourlyWage = float(annualSalary / 52.0 / daysPerWeek / hoursPerDay)
-print("Hourly wage = $", hourlyWage)
+hours_per_day = float(input("Number of hours worked per day: "))
+days_per_week = float(input("Number of days worked in a week: "))
+annual_salary = float(input("Annual salary: "))
+hourly_wage = float(annual_salary / 52.0 / days_per_week / hours_per_day)
+print("Hourly wage = $", hourly_wage)
