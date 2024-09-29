@@ -1,14 +1,18 @@
+
 # Think of while loop that creates a Fibonacci number sequence. 
 
+num = int(input("Enter a positive number: "))
+a = 0
+b = 1
+count = 0
 
-m = input("Enter a positive number:" )
+while count < num:
+    print(a, end = " ")
 
-for range(0, m) in n: 
-    
-    x = 0 #1st number in the sequence
-    y = 1
-    print(x, y, sep=" ")
+    a, b = b, a + b
 
-    x += y
-    y = y + x 
+    count += 1
 
+    if count % 4 == 0:
+        print() 
+ 
